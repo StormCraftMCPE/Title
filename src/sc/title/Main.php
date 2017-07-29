@@ -1,5 +1,7 @@
 <?php
 
+namespace sc\title;
+
 use pocketmine\Player;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
