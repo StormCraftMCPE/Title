@@ -18,7 +18,7 @@ Class Main extends PluginBase implements Listener{
     $this->getLogger()->info("Titler Disable!");
     }
   public function onJoin(PlayerJoinEvent $ev){
-    if(getServer()->get("join.title") === true)
+    if($this->getServer()->get("join.title") === true)
       $player = $ev->getPlayer();
       $player->addTitle("StormCraft MCPE"); // Your Server Name
     }
